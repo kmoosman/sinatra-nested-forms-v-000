@@ -2,7 +2,7 @@ class Ship
   attr_accessor :name, :type, :booty
   SHIPS = []
 
-  def initializer(name, type, booty)
+  def initialize(name, type, booty)
     @name = name
     @type = weight
     @booty = height
